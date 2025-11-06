@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jashv\\OneDrive\\\u684C\u9762\\copilot_SQLite_thread\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF707B67-F11C-4F89-A25F-1149591639D3}|copilot_SQLite_thread\\copilot_SQLite_thread.csproj|c:\\users\\jashv\\onedrive\\\u684C\u9762\\copilot_sqlite_thread\\copilot_sqlite_thread\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF707B67-F11C-4F89-A25F-1149591639D3}|copilot_SQLite_thread\\copilot_SQLite_thread.csproj|solutionrelative:copilot_sqlite_thread\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jashv\\OneDrive\\\u684C\u9762\\copilot_SQLite_thread\\copilot_SQLite_thread\\Program.cs",
+              "RelativeDocumentMoniker": "copilot_SQLite_thread\\Program.cs",
+              "ToolTip": "C:\\Users\\jashv\\OneDrive\\\u684C\u9762\\copilot_SQLite_thread\\copilot_SQLite_thread\\Program.cs",
+              "RelativeToolTip": "copilot_SQLite_thread\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T08:42:13.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
