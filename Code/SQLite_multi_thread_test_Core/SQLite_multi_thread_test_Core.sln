@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite_multi_thread_test_Core", "SQLite_multi_thread_test_Core\SQLite_multi_thread_test_Core.csproj", "{03F37BA2-530D-42F8-B8FC-3E6F5FB53FD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F37BA2-530D-42F8-B8FC-3E6F5FB53FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F37BA2-530D-42F8-B8FC-3E6F5FB53FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F37BA2-530D-42F8-B8FC-3E6F5FB53FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F37BA2-530D-42F8-B8FC-3E6F5FB53FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CBB0542-5DB1-4618-8A83-97602BBC112A}
+	EndGlobalSection
+EndGlobal

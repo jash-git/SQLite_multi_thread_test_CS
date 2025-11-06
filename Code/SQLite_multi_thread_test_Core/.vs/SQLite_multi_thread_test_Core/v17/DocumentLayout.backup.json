@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jashv\\OneDrive\\\u684C\u9762\\SQLite_multi_thread_test_Core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03F37BA2-530D-42F8-B8FC-3E6F5FB53FD6}|SQLite_multi_thread_test_Core\\SQLite_multi_thread_test_Core.csproj|c:\\users\\jashv\\onedrive\\\u684C\u9762\\sqlite_multi_thread_test_core\\sqlite_multi_thread_test_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F37BA2-530D-42F8-B8FC-3E6F5FB53FD6}|SQLite_multi_thread_test_Core\\SQLite_multi_thread_test_Core.csproj|solutionrelative:sqlite_multi_thread_test_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jashv\\OneDrive\\\u684C\u9762\\SQLite_multi_thread_test_Core\\SQLite_multi_thread_test_Core\\Program.cs",
+              "RelativeDocumentMoniker": "SQLite_multi_thread_test_Core\\Program.cs",
+              "ToolTip": "C:\\Users\\jashv\\OneDrive\\\u684C\u9762\\SQLite_multi_thread_test_Core\\SQLite_multi_thread_test_Core\\Program.cs",
+              "RelativeToolTip": "SQLite_multi_thread_test_Core\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:49:58.453Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
