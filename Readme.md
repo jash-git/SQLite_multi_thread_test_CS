@@ -1,15 +1,19 @@
 # C# 多個執行續存取 同一個 SQLITE 檔案(SQLite_multi_thread_test_CS)
+<br/>
 
-## 資料來源: chatgpt [https://chatgpt.com/share/690c367d-3d78-8009-a07a-c930ad35f83d]
+## 資料來源: chatgpt [ https://chatgpt.com/share/690c367d-3d78-8009-a07a-c930ad35f83d ]
+<br/>
 
 ## 開發工具 : Visual Studio 2022 C#8.0
+<br/>
 
-## 相依套件
-- ** Microsoft.Data.Sqlite.Core(9.0.10) **
-- ** SQLitePCLRaw.bundle_e_sqlite3(3.0.2) **
+## 相依套件 : 
+- #### Microsoft.Data.Sqlite.Core(9.0.10)
+- #### SQLitePCLRaw.bundle_e_sqlite3(3.0.2)
+<br/>
 
-## Code
-.cs
+## Code :
+### .cs
 ```
 using System;
 using System.IO;
