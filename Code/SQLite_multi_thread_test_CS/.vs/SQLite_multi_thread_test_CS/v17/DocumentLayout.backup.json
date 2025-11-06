@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jashv\\OneDrive\\\u684C\u9762\\GITHUB\\SQLite_multi_thread_test_CS\\Code\\SQLite_multi_thread_test_CS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B48ADB7-68D0-43FB-AFB3-A4BB7425BA58}|SQLite_multi_thread_test_CS\\SQLite_multi_thread_test_CS.csproj|c:\\users\\jashv\\onedrive\\\u684C\u9762\\github\\sqlite_multi_thread_test_cs\\code\\sqlite_multi_thread_test_cs\\sqlite_multi_thread_test_cs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B48ADB7-68D0-43FB-AFB3-A4BB7425BA58}|SQLite_multi_thread_test_CS\\SQLite_multi_thread_test_CS.csproj|solutionrelative:sqlite_multi_thread_test_cs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jashv\\OneDrive\\\u684C\u9762\\GITHUB\\SQLite_multi_thread_test_CS\\Code\\SQLite_multi_thread_test_CS\\SQLite_multi_thread_test_CS\\Program.cs",
+              "RelativeDocumentMoniker": "SQLite_multi_thread_test_CS\\Program.cs",
+              "ToolTip": "C:\\Users\\jashv\\OneDrive\\\u684C\u9762\\GITHUB\\SQLite_multi_thread_test_CS\\Code\\SQLite_multi_thread_test_CS\\SQLite_multi_thread_test_CS\\Program.cs",
+              "RelativeToolTip": "SQLite_multi_thread_test_CS\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T05:39:17.132Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
