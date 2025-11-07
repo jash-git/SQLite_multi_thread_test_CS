@@ -1,11 +1,39 @@
 ﻿using System;
+using System.Data.SQLite;
+using System.Diagnostics;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Data.SQLite;
 
 class Program
 {
+    private static Stopwatch m_stopWatch = new Stopwatch();
+    private static String m_StrTitle = "";
+    private static String m_StrStartFileLine = "";
+    private static String m_StrEndFileLine = "";
+    public static void Start(String StrInfor)
+    {
+        StackFrame CallStack = new StackFrame(1, true);
+        m_StrStartFileLine = String.Format("File : {0} , Line : {1}", CallStack.GetFileName(), CallStack.GetFileLineNumber());
+        m_StrTitle = StrInfor;
+
+        m_stopWatch.Start();
+    }
+    public static string Stop()
+    {
+        StackFrame CallStack = new StackFrame(1, true);
+
+        m_stopWatch.Stop();
+
+        // Get the elapsed time as a TimeSpan value.
+        TimeSpan ts = m_stopWatch.Elapsed;
+        // Format and display the TimeSpan value.
+        string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
+
+        m_StrEndFileLine = String.Format("File : {0} , Line : {1}", CallStack.GetFileName(), CallStack.GetFileLineNumber());
+
+        return m_StrStartFileLine + " ~ " + m_StrEndFileLine + " consume time: " + elapsedTime +"~ FileName:" + m_StrTitle;
+    }
     static void Pause()
     {
         Console.Write("Press any key to continue...");
@@ -31,20 +59,23 @@ class Program
             Console.WriteLine($"WAL 模式啟用結果: {result}");
         }
 
+        Start("使用 20 個執行緒同時寫入500筆資料 = 共10000筆");
         Console.WriteLine("開始平行寫入...");
 
         string connStr = $"Data Source={dbFile};Version=3;Cache=Shared;Journal Mode=WAL;";
 
-        // 使用 20 個執行緒同時寫入資料
+        // 使用 20 個執行緒同時寫入500筆資料 = 共10000筆
         Parallel.For(0, 20, i =>
         {
-            for (int j = 0; j < 5; j++)
+            for (int j = 0; j < 500; j++)
             {
                 WriteWithRetry(connStr, i, j);
             }
         });
 
         Console.WriteLine("寫入完成。");
+
+        Console.WriteLine(Stop());
         Pause();
     }
 
