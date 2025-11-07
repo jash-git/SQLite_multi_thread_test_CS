@@ -118,7 +118,8 @@ class Program
         {
             DataSource = dbFile,
             Cache = SqliteCacheMode.Shared,
-            Mode = SqliteOpenMode.ReadWrite
+            Mode = SqliteOpenMode.ReadWrite,
+            Pooling = true
         }.ToString();
 
         // 使用 20 個執行緒平行寫入資料
