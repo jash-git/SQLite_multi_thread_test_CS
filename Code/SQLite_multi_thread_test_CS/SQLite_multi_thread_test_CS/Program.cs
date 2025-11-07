@@ -1,14 +1,42 @@
-﻿using System;
+﻿using Microsoft.Data.Sqlite;
+using SQLitePCL;
+using System;
+using System.Diagnostics;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Data.Sqlite;
-using SQLitePCL;
 //---
 //資料來源: https://chatgpt.com/share/690c367d-3d78-8009-a07a-c930ad35f83d
 //---
 class Program
 {
+    private static Stopwatch m_stopWatch = new Stopwatch();
+    private static String m_StrTitle = "";
+    private static String m_StrStartFileLine = "";
+    private static String m_StrEndFileLine = "";
+    public static void Start(String StrInfor)
+    {
+        StackFrame CallStack = new StackFrame(1, true);
+        m_StrStartFileLine = String.Format("File : {0} , Line : {1}", CallStack.GetFileName(), CallStack.GetFileLineNumber());
+        m_StrTitle = StrInfor;
+
+        m_stopWatch.Start();
+    }
+    public static string Stop()
+    {
+        StackFrame CallStack = new StackFrame(1, true);
+
+        m_stopWatch.Stop();
+
+        // Get the elapsed time as a TimeSpan value.
+        TimeSpan ts = m_stopWatch.Elapsed;
+        // Format and display the TimeSpan value.
+        string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
+
+        m_StrEndFileLine = String.Format("File : {0} , Line : {1}", CallStack.GetFileName(), CallStack.GetFileLineNumber());
+
+        return m_StrStartFileLine + " ~ " + m_StrEndFileLine + " consume time: " + elapsedTime + "~ FileName:" + m_StrTitle;
+    }
     static void Pause()
     {
         Console.Write("Press any key to continue...");
@@ -36,6 +64,7 @@ class Program
             Console.WriteLine($"WAL 模式啟用結果: {mode}");
         }
 
+        Start("使用 20 個執行緒同時寫入500筆資料 = 共10000筆");
         Console.WriteLine("開始平行寫入...");
 
         var connStr = new SqliteConnectionStringBuilder
@@ -48,14 +77,14 @@ class Program
         // 使用 20 個執行緒平行寫入資料
         Parallel.For(0, 20, i =>
         {
-            for (int j = 0; j < 5; j++)
+            for (int j = 0; j < 500; j++)
             {
                 WriteWithRetry(connStr, i, j);
             }
         });
 
         Console.WriteLine("寫入完成。");
-
+        Console.WriteLine(Stop());
         Pause();
     }
 

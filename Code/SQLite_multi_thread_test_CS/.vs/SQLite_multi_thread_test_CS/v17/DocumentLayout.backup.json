@@ -14,11 +14,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "SQLite_multi_thread_test_CS\\Program.cs",
               "ToolTip": "C:\\Users\\jashv\\OneDrive\\\u684C\u9762\\GITHUB\\SQLite_multi_thread_test_CS\\Code\\SQLite_multi_thread_test_CS\\SQLite_multi_thread_test_CS\\Program.cs",
               "RelativeToolTip": "SQLite_multi_thread_test_CS\\Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAADoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T05:39:17.132Z",
               "EditorCaption": ""
